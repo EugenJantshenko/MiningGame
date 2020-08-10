@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &233178094916126745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 110922716363635936}
+  - component: {fileID: -7578056378808045597}
+  m_Layer: 0
+  m_Name: PlayerProgress
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &110922716363635936
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233178094916126745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.739645, y: 3.0133514, z: 0.24009383}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7578056378808045597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233178094916126745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b282571639f84823903b340838f5529, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _configList:
+  - {fileID: 11400000, guid: 184e025dfeeb43e408ea4fdb82ffec48, type: 2}
+  - {fileID: 11400000, guid: 3961ff7a1b916d7458299961927b0a1d, type: 2}
+  - {fileID: 11400000, guid: ed8ae4e60368d764ba3516ab34dbe554, type: 2}
+  - {fileID: 11400000, guid: fb7bd247d5532a241a635cb3626d2842, type: 2}
+  FactoryyLevel: 0
+  FactoryUpgradeStartValue: 0
+  BullDozerLevel: 0
+  BullDozerUpgradeStartValue: 0
+  DumpingTruckLevel: 0
+  TruckUpgradeStartValue: 0
+  Coins: 0
+  BullDozerLoadingTime: 0
+  TruckCycleTime: 0
